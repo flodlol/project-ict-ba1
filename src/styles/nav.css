@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  background-color: aliceblue;
+}
+
+h3 {
+    color: #2c3e50;
+    font-size: 18px;
+    margin: 20px;
+}
+
+#nav-link {
+    color: #2980b9;
+    font-size: 18px;
+    margin: 20px;
+}
+
+#logo {
+    display: block;
+    bottom: 0px;
+    margin: 15px;
+    position: fixed;
+}

@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  margin-top: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+h2 {
+  color: #39546f;
+}
+
+h3 {
+  color: #406487;
+}
+
+p {
+  color: #34495e;
+  text-align: center;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #52b0ee;
+  width: 50%;
+}
