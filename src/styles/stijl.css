@@ -45,3 +45,13 @@ img {
   font-style: italic;
   text-align: center;
 }
+
+#screenshot {
+  width: 80%;
+}
+
+#disclaimer {
+  color: #7f7f7f;
+  font-style: italic;
+  text-align: center;
+}
