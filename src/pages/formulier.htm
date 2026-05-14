@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../styles/stijl.css" type="text/css" />
     <link rel="stylesheet" href="../styles/formulier.css" type="text/css" />
   </head>
-    <form action="../back-end/toon_waarden_post.php" method="post">
+    <form action="dankje.htm" method="get">
       <h1>Huur een huisje op Epstein-Eiland</h1>
 
       <p><h3>Gegevens :</h3>
@@ -24,11 +24,11 @@
       </p>
       <br />
       <p><h3>Favouriete Epstein-Eiland Bezoeker :</h3>
-        <p><input type="radio" name="bezoeker" /> Big Yahu</p>
-        <p><input type="radio" name="bezoeker" /> Mr. Orange</p>
-        <p><input type="radio" name="bezoeker" /> Big Bazos</p>
-        <p><input type="radio" name="bezoeker" /> Sientology Patron</p>
-        <p><input type="radio" name="bezoeker" /> Senne Kaars</p>
+        <p><input type="radio" name="bezoeker" value="Big Yahu" /> Big Yahu</p>
+        <p><input type="radio" name="bezoeker" value="Mr. Orange" /> Mr. Orange</p>
+        <p><input type="radio" name="bezoeker" value="Big Bazos" /> Big Bazos</p>
+        <p><input type="radio" name="bezoeker" value="Sientology Patron" /> Sientology Patron</p>
+        <p><input type="radio" name="bezoeker" value="Senne Kaars" /> Senne Kaars</p>
       </p>
 
 
@@ -40,8 +40,8 @@
       </p>
 
       <p><h3>Beschrijf het type huis :</h3>
-        <p>Grootte : <input type="text" name="grootte" /></p>
-        <p>Bedkamers : <input type="text" name="bedkamers" /></p>
+        <p>Aantal Deuren : <input type="number" name="grootte" min="0" step="1" /></p>
+        <p>Bedkamers : <input type="number" name="bedkamers" min="0" step="1" /></p>
       </p>
 
       <p>
