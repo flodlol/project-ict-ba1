@@ -50,7 +50,8 @@ p {
   margin: 30px auto;
 }
 
-pre {
+pre,
+#prompt {
   background: #f3f8fc;
   border: #e0ecfb 5px solid;
   padding: 20px;
